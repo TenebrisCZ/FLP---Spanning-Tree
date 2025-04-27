@@ -29,18 +29,18 @@ Program je implementován v jazyce Prolog. Čte hrany grafu ze standardního vst
 
 ### Použité predikáty
 
-| Predikát                                                                                                                             | Účel                                                                |
-| :------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------- |
-| `start/0`                                                                                                                           | Hlavní vstupní bod programu: načítá vstup a spouští výpočet. |
-| `read_lines/1`,`split_lines/2`,`filter_lines/2`,`process_edge_lines/2`,`read_line/1`,`split_line/2`,`valid_edge_line/2` | Čtení, parsování (`input2.pl`) a filtrace vstupních dat.      |
-| `normalize_edges/2`                                                                                                                 | Normalizace a deduplikace hran.                                       |
-| `extract_nodes/2`                                                                                                                   | Extrakce všech vrcholů ze seznamu hran.                             |
-| `select_k_elements/3`                                                                                                               | Vygenerování kombinací hran o délce `k`.                        |
-| `spanning_tree/3`                                                                                                                   | Hledání možných koster grafu.                                     |
-| `covers_all_nodes/2`                                                                                                                | Kontrola, zda hrany pokrývají všechny vrcholy.                     |
-| `is_valid_tree/2`                                                                                                                   | Ověření, že graf tvoří strom (souvislý a bez cyklů).          |
-| `is_connected/2`,`reachable/3`,`bfs/4`                                                                                          | Implementace průchodu grafem (BFS) pro test souvislosti.             |
-| `print_spanning_trees/2`,`print_tree/1`,`print_edge/1`                                                                          | Výpis koster grafu.                                                  |
+| Predikát                                                                                                                                   | Účel                                                                |
+| :------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------- |
+| `start/0`                                                                                                                                 | Hlavní vstupní bod programu: načítá vstup a spouští výpočet. |
+| `read_lines/1`,<br />`split_lines/2`,<br />`filter_lines/2`,`br`,<br />`read_line/1`,`split_line/2`,<br />`valid_edge_line/2` | Čtení, parsování (`input2.pl`) a filtrace vstupních dat.      |
+| `normalize_edges/2`                                                                                                                       | Normalizace a deduplikace hran.                                       |
+| `extract_nodes/2`                                                                                                                         | Extrakce všech vrcholů ze seznamu hran.                             |
+| `select_k_elements/3`                                                                                                                     | Vygenerování kombinací hran o délce `k`.                        |
+| `spanning_tree/3`                                                                                                                         | Hledání možných koster grafu.                                     |
+| `covers_all_nodes/2`                                                                                                                      | Kontrola, zda hrany pokrývají všechny vrcholy.                     |
+| `is_valid_tree/2`                                                                                                                         | Ověření, že graf tvoří strom (souvislý a bez cyklů).          |
+| `is_connected/2`,<br />`reachable/3,`<br />`bfs/4`                                                                                    | Implementace průchodu grafem (BFS) pro test souvislosti.             |
+| `print_spanning_trees/2`,<br />`print_tree/1`,`br`                                                                                    | Výpis koster grafu.                                                  |
 
 ---
 
