@@ -120,6 +120,20 @@ Testovací skript:
 * Porovná výstup s očekávanými `.out` soubory.
 * Výstup normalizuje a toleruje libovolné pořadí hran a vrcholů.
 
+
+| Testovací soubor   | Přibližná doba běhu (sekundy) |
+| ------------------- | --------------------------------- |
+| `tests/test1.in`  | 0.025                             |
+| `tests/test2.in`  | 0.023                             |
+| `tests/test3.in`  | 0.025                             |
+| `tests/test4.in`  | 0.038                             |
+| `tests/test5.in`  | 0.023                             |
+| `tests/test6.in`  | 0.022                             |
+| `tests/test7.in`  | 0.024                             |
+| `tests/test8.in`  | 0.023                             |
+| `tests/test9.in`  | 0.170                             |
+| `tests/test10.in` | 1.352                             |
+
 ---
 
 ## Ukázkový vstup a výstup
