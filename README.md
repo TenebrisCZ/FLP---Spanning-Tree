@@ -4,6 +4,8 @@
 
 **Login:** xosine00
 
+**Body:** 9b (8/8 za implementaci + 1 prémiový bod)
+
 ---
 
 ## Úvod
